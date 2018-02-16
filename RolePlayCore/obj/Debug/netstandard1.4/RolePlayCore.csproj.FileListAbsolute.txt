@@ -1,0 +1,8 @@
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\bin\Debug\netstandard1.4\RolePlayCore.deps.json
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\bin\Debug\netstandard1.4\RolePlayCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\bin\Debug\netstandard1.4\RolePlayCore.pdb
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\obj\Debug\netstandard1.4\RolePlayCore.csprojResolveAssemblyReference.cache
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\obj\Debug\netstandard1.4\RolePlayCore.csproj.CoreCompileInputs.cache
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\obj\Debug\netstandard1.4\RolePlayCore.AssemblyInfo.cs
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\obj\Debug\netstandard1.4\RolePlayCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayCore\obj\Debug\netstandard1.4\RolePlayCore.pdb

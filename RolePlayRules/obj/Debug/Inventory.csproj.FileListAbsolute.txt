@@ -1,0 +1,8 @@
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\bin\Debug\RolePlayRules.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\bin\Debug\RolePlayRules.pdb
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\bin\Debug\RolePlayCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\bin\Debug\RolePlayCore.pdb
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\obj\Debug\Inventory.csprojResolveAssemblyReference.cache
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\obj\Debug\RolePlayRules.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlayRules\obj\Debug\RolePlayRules.pdb
