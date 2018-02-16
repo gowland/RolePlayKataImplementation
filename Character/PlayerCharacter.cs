@@ -5,11 +5,11 @@ namespace GamePieces
 {
     internal class PlayerCharacter : IPlayerCharacter, IGamePiece<PlayerCharacter>
     {
-        public PlayerCharacter(CharacterType type, string name, int id)
+        public PlayerCharacter(CharacterType type, string name, DomainId<PlayerCharacter> id)
         {
             Type = type;
             Name = name;
-            Id = new DomainId<PlayerCharacter>(id);
+            Id = id;
         }
 
         public CharacterType Type { get; }

@@ -11,3 +11,5 @@ C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\R
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlay\bin\Debug\RolePlayRules.pdb
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlay\obj\Debug\RolePlay.exe
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlay\obj\Debug\RolePlay.pdb
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlay\bin\Debug\DomainCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\RolePlay\bin\Debug\DomainCore.pdb

@@ -1,3 +1,7 @@
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\bin\Debug\netstandard1.4\DomainCore.deps.json
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\obj\Debug\netstandard1.4\DomainCore.csproj.CoreCompileInputs.cache
 C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\obj\Debug\netstandard1.4\DomainCore.AssemblyInfo.cs
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\bin\Debug\netstandard1.4\DomainCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\bin\Debug\netstandard1.4\DomainCore.pdb
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\obj\Debug\netstandard1.4\DomainCore.dll
+C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\DomainCore\obj\Debug\netstandard1.4\DomainCore.pdb

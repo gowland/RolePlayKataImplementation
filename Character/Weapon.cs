@@ -5,11 +5,11 @@ namespace GamePieces
 {
     internal class Weapon : IWeapon, IGamePiece<Weapon>
     {
-        public Weapon(WeaponType type, string name, int id)
+        public Weapon(WeaponType type, string name, DomainId<Weapon> id)
         {
             Type = type;
             Name = name;
-            Id = new DomainId<Weapon>(id);
+            Id = id;
         }
 
         public WeaponType Type { get; }
