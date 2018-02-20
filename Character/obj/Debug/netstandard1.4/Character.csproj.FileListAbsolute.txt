@@ -1,4 +1,0 @@
-C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\Character\bin\Debug\netstandard1.4\Character.deps.json
-C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\Character\obj\Debug\netstandard1.4\Character.csprojResolveAssemblyReference.cache
-C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\Character\obj\Debug\netstandard1.4\Character.csproj.CoreCompileInputs.cache
-C:\Users\53rgowland\OneDrive - Sonova\Visual Studio 2017\Projects\RolePlayKata\Character\obj\Debug\netstandard1.4\Character.AssemblyInfo.cs
