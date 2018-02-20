@@ -5,12 +5,14 @@ namespace GamePieces
     public class GamePieceDomain
     {
         private readonly CharacterFactory _characterFactory;
-        private WeaponFactory _weaponFactory;
+        private readonly WeaponFactory _weaponFactory;
+        private readonly MonsterFactory _monsterFactory;
 
         public GamePieceDomain()
         {
             _characterFactory = new CharacterFactory();
             _weaponFactory = new WeaponFactory();
+            _monsterFactory = new MonsterFactory();
         }
 
         public IPlayerCharacter CreateCharacter(CharacterType type, string name)
@@ -21,6 +23,11 @@ namespace GamePieces
         public IWeapon CreateWeapon(WeaponType type, string name)
         {
             return _weaponFactory.CreateWeapon(type, name);
+        }
+
+        public IMonster CreateNamedMonster(MonsterType type, string name)
+        {
+            return _monsterFactory.CreateNamedMonster(type, name);
         }
     }
 }

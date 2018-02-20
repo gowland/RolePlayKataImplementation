@@ -36,6 +36,9 @@ namespace RolePlay
             PickUpWeapon(inventoryDomain, wizard, dagger2);
             PickUpWeapon(inventoryDomain, whiteWizard, sword2);
             Console.ReadKey();
+
+            IMonster dracula = gamePieceDomain.CreateNamedMonster(MonsterType.Vampire, "Dracula");
+            IMonster wolfy = gamePieceDomain.CreateNamedMonster(MonsterType.Werewolf, "Wolfy McWolf");
         }
 
         private static void PickUpWeapon(InventoryDomain inventoryDomain, IPlayerCharacter character, IWeapon weapon)
