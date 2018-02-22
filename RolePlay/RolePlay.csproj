@@ -53,6 +53,10 @@
       <Project>{829E86B2-F0F2-498D-BD43-D3E18046011F}</Project>
       <Name>GamePieces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Combat\Combat.csproj">
+      <Project>{648D6703-ADE9-4B00-90BD-5E77365769FD}</Project>
+      <Name>Combat</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RolePlayCore\RolePlayCore.csproj">
       <Project>{13AED5DD-9E61-43EC-9E89-155C4FA47408}</Project>
       <Name>RolePlayCore</Name>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Combat;
 using GamePieces;
 using RolePlayCore;
 using RolePlayRules;
@@ -36,9 +37,38 @@ namespace RolePlay
             PickUpWeapon(inventoryDomain, wizard, dagger2);
             PickUpWeapon(inventoryDomain, whiteWizard, sword2);
             Console.ReadKey();
+            Console.WriteLine();
 
             IMonster dracula = gamePieceDomain.CreateNamedMonster(MonsterType.Vampire, "Dracula");
             IMonster wolfy = gamePieceDomain.CreateNamedMonster(MonsterType.Werewolf, "Wolfy McWolf");
+
+            var combatDomain = new CombatDomain();
+            Attack(warrior, dracula, combatDomain, LocationType.HolyGround);
+            Attack(warrior, dracula, combatDomain, LocationType.Town);
+            Attack(warrior, dracula, combatDomain, LocationType.Woods);
+            Attack(warrior, wolfy, combatDomain, LocationType.HolyGround);
+            Attack(warrior, wolfy, combatDomain, LocationType.Town);
+            Attack(warrior, wolfy, combatDomain, LocationType.Woods);
+            Attack(wizard, dracula, combatDomain, LocationType.HolyGround);
+            Attack(wizard, dracula, combatDomain, LocationType.Town);
+            Attack(wizard, dracula, combatDomain, LocationType.Woods);
+            Attack(wizard, wolfy, combatDomain, LocationType.HolyGround);
+            Attack(wizard, wolfy, combatDomain, LocationType.Town);
+            Attack(wizard, wolfy, combatDomain, LocationType.Woods);
+            Attack(whiteWizard, dracula, combatDomain, LocationType.HolyGround);
+            Attack(whiteWizard, dracula, combatDomain, LocationType.Town);
+            Attack(whiteWizard, dracula, combatDomain, LocationType.Woods);
+            Attack(whiteWizard, wolfy, combatDomain, LocationType.HolyGround);
+            Attack(whiteWizard, wolfy, combatDomain, LocationType.Town);
+            Attack(whiteWizard, wolfy, combatDomain, LocationType.Woods);
+            Console.ReadKey();
+        }
+
+        private static void Attack(IPlayerCharacter playerCharacter, IMonster monster, CombatDomain combatDomain, LocationType locationType)
+        {
+            Console.WriteLine("{0} [{1}] attacks {2} [{3}] at {4}", playerCharacter.Name, playerCharacter.Type, monster.Name, monster.Type, locationType,
+                combatDomain.GetChanceOfAttack(playerCharacter, monster, locationType));
+            Console.WriteLine("Odds: {0:P0}", combatDomain.GetChanceOfAttack(playerCharacter, monster, locationType));
         }
 
         private static void PickUpWeapon(InventoryDomain inventoryDomain, IPlayerCharacter character, IWeapon weapon)

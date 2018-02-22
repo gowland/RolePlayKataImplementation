@@ -1,4 +1,5 @@
-﻿using RolePlayCore;
+﻿using System;
+using RolePlayCore;
 
 namespace GamePieces
 {
